@@ -8,5 +8,10 @@ System.out.println(uczen1);
         Uczen.wypiszDane();
 Uczen uczen2 = new Uczen("Szymus",  7);
         Uczen.wypiszDane();
+        uczen1.dyżury();
+        Nauczyciel nauczyciel1 = new Nauczyciel();
+                Nauczyciel1.dyżury();
+        System.out.println(Nauczyciel1);
    }
+
 }

@@ -1,4 +1,4 @@
-public class Uczen extends Osoba{
+public class Uczen extends Osoba implements Dyżurny{
     private int NrUcznia;
     private static int licznik;
 
@@ -20,5 +20,10 @@ public class Uczen extends Osoba{
 
     public static void wypiszDane(){
         System.out.println("liczba uczniow"+licznik);
+    }
+
+    @Override
+    public void dyżury() {
+        System.out.println("zmazywanie tablicy");
     }
 }
