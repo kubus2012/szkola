@@ -10,8 +10,10 @@ Uczen uczen2 = new Uczen("Szymus",  7);
         Uczen.wypiszDane();
         uczen1.dyżury();
         Nauczyciel nauczyciel1 = new Nauczyciel();
-                Nauczyciel1.dyżury();
-        System.out.println(Nauczyciel1);
-   }
-
+                Nauczyciel.dyżury();
+        System.out.println(Nauczyciel);
+        Nauczyciel Nauczyciel2 = new Wychowawca("kunegounda",20,"wf")
+   }Klasa kl1 = new Klasa(Nauczyciel,"3p")
+            kl2.dodajUczniaDoKlasy(Uczen)
+            kl2.dodajUczniaDoKlasy(Uczen)
 }
